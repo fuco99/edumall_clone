@@ -5,12 +5,10 @@ window.addEventListener("load", function () {
 
 function truncateCardTitle() {
   var cardList = document.getElementsByClassName("card-title");
-  console.log(cardList);
   for (var i = 0; i < cardList.length; i++) {
-    cardList[i].innerHTML;
-    var text = cardList[i].innerHTML;
-    var newText = truncateString(text,40);
-    cardList[i].innerHTML = newText;
+    var text =cardList[i].innerHTML;
+    var newText = truncateString(text,50);
+    text = newText;
   }
 }
 function truncateString(str, num) {

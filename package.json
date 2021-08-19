@@ -1,5 +1,24 @@
 {
+  "name": "edumall_clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.6.0"
-  }
+    "bootstrap": "4.6",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuco99/edumall_clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuco99/edumall_clone/issues"
+  },
+  "homepage": "https://github.com/fuco99/edumall_clone#readme"
 }
